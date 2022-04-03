@@ -1,0 +1,103 @@
+:root {
+    --dark-main: #1f3720;
+    --dark-sub: #38f681;
+    --light-main: #f9faf8;
+    --light-sub: #e5e7eb;
+
+}
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 1.6rem;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.main-text {
+    font-size: 4.8rem;
+    font-weight: extra-bold;
+}
+
+.sub-text {
+    font-size: 3.6rem;
+    font-weight: extra-bold;
+}
+
+
+p {
+    font-size: 1.8rem;
+}
+
+.wide-padding {
+    padding: 1% 3%;
+}
+
+.sqr-padding {
+    padding: 5%;
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-color: var(--dark-main);
+    color: var(--light-main);
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+}
+
+.logo {
+    color: var(--light-main);
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+.nav {
+    color: var(--light-sub);
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    align-items: center;
+}
+
+.nav-link {
+    flex: 1;
+    text-align: center;
+}
+
+.landing {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90%;
+}
+
+.land-img {
+    width: 40%;
+    height: auto;
+}
+
+.info {
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+}
